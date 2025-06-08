@@ -21,24 +21,24 @@ int main() {
 
     // Determine the smaller value
     if (value1 <= value2 && value1 <= value3) {
-	smaller_value = value1;
+        smaller_value = value1;
     }
     else if (value2 <= value1 && value2 <= value3) {
-	smaller_value = value2;
+        smaller_value = value2;
     }
     else {
-	smaller_value = value3;
+        smaller_value = value3;
     }
-	
+        
     // Determine the larger value
     if (value1 >= value2 && value1 >= value3) {
-	larger_value = value1;
+        larger_value = value1;
     }
     else if (value2 >= value1 && value2 >= value3) {
-	larger_value = value2;
+        larger_value = value2;
     }
     else {
-	larger_value = value3;
+        larger_value = value3;
     }
 
     // Determine the middle value

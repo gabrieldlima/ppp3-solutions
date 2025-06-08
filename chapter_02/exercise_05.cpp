@@ -24,16 +24,16 @@ int main() {
 
     // Show the smaller number
     if (val1 < val2) {
-	std::cout << "Smaller: " << val1 << '\n';
+        std::cout << "Smaller: " << val1 << '\n';
     } else {
-	std::cout << "Smaller: " << val2 << '\n';
+        std::cout << "Smaller: " << val2 << '\n';
     }
 
     // Show the larger number
     if (val1 > val2) {
-	std::cout << "Larger: " << val1 << '\n';
+        std::cout << "Larger: " << val1 << '\n';
     } else {
-	std::cout << "Larger: " << val2 << '\n';
+        std::cout << "Larger: " << val2 << '\n';
     }
 
     // Show the sum
